@@ -18,4 +18,7 @@ describe(`${getMaxSubSum.name}`, () => {
 
   test("arr = [1, 2, 3] return 6", () =>
     expect(getMaxSubSum([1, 2, 3])).toBe(6))
+
+  test("if all negative, arr = [-1, -2, -3] return 0", () =>
+    expect(getMaxSubSum([-1, -2, -3])).toBe(0))
 })

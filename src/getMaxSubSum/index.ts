@@ -1,5 +1,5 @@
 const getMaxSubSum = (arr: number[]): number => {
-  let maxSum = arr[0]
+  let maxSum = 0
 
   for (let i = 0; i < arr.length; i++) {
     let subMaxSum = 0
