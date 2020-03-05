@@ -1,4 +1,4 @@
-const getMaxSubSum = (arr: number[]): number => {
+export default (arr: number[]): number => {
   let maxSum = 0
 
   for (let i = 0; i < arr.length; i++) {
@@ -12,5 +12,3 @@ const getMaxSubSum = (arr: number[]): number => {
 
   return maxSum
 }
-
-export default getMaxSubSum

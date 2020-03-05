@@ -1,6 +1,8 @@
-import getPrimes from "."
+import path from "path"
 
-describe(`${getPrimes.name}`, () => {
+import getPrimes from "../solution"
+
+describe(`${path.basename(path.join(__dirname, ".."))}`, () => {
   test("n <= 1 return []", () => {
     expect(getPrimes(1)).toStrictEqual([])
     expect(getPrimes(0)).toStrictEqual([])
