@@ -12,6 +12,9 @@ module.exports = {
     // fix: typescript
     "@typescript-eslint/explicit-function-return-type": "off",
 
+    // style: less code
+    "no-return-assign": "off",
+
     // enable: eslint-plugin-simple-import-sort
     "sort-imports": "off",
     "import/order": "off",
