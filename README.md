@@ -1,8 +1,10 @@
 # TypeScript Contest
 
-## Content
+## Content (6)
 
-- [Arithmetic series (sum)](./src/getArithmeticSeries)
-- [Fibonacci numbers](./src/getFibNum)
-- [Maximum subarray sum](./src/getMaxSubSum)
-- [Prime numbers](./src/getPrimes)
+- [Arithmetic Series (Sum)](./src/getArithmeticSeries)
+- [Fibonacci Numbers](./src/getFibNum)
+- [Knapsack Problem](./src/getMaxValKnapsack)
+- [Maximum Subarray Sum](./src/getMaxSubSum)
+- [Prime Numbers](./src/getPrimes)
+- [Sorting Algorithms](./src/sortingAlgorithms)
