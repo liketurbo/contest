@@ -20,6 +20,9 @@ module.exports = {
     "sort-imports": "off",
     "import/order": "off",
     "simple-import-sort/sort": "error",
+
+    // fix: tests
+    "jest/valid-describe": "off",
   },
   settings: {
     "import/resolver": {

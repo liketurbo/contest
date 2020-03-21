@@ -3,12 +3,12 @@ import path from "path"
 import { getFibNumIter, getFibNumMem, getFibNumRec } from "../solution"
 import runThrough from "./runThrough"
 
-describe(`${path.basename(path.join(__dirname, ".."))}`, () => {
-  describe(`${getFibNumRec.name}`, () => {
+describe(path.basename(path.join(__dirname, "..")), () => {
+  describe(getFibNumRec.name, () => {
     runThrough(getFibNumRec)
   })
 
-  describe(`${getFibNumMem.name}`, () => {
+  describe(getFibNumMem.name, () => {
     runThrough(getFibNumMem)
 
     test("n = 77 return 5527939700884757", () => {
@@ -16,7 +16,7 @@ describe(`${path.basename(path.join(__dirname, ".."))}`, () => {
     })
   })
 
-  describe(`${getFibNumIter.name}`, () => {
+  describe(getFibNumIter.name, () => {
     runThrough(getFibNumIter)
 
     test("n = 77 return 5527939700884757", () => {
