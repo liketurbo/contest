@@ -4,9 +4,7 @@ import { getFibNumIter, getFibNumMem, getFibNumRec } from "../solution"
 import runThrough from "./runThrough"
 
 describe(path.basename(path.join(__dirname, "..")), () => {
-  describe(getFibNumRec.name, () => {
-    runThrough(getFibNumRec)
-  })
+  describe(getFibNumRec.name, () => runThrough(getFibNumRec))
 
   describe(getFibNumMem.name, () => {
     runThrough(getFibNumMem)
