@@ -3,6 +3,7 @@
     /* Basic Options */
     "outDir": "dist" /* Redirect output structure to the directory. */,
     "skipLibCheck": true,
+    "target": "ES5",
 
     /* Strict Type-Checking Options */
     "strict": true /* Enable all strict type-checking options. */,

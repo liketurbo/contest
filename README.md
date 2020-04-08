@@ -1,6 +1,8 @@
 # TypeScript Contest
 
-## Content (7)
+## Content (8)
+
+### Algorithms (7)
 
 - [Arithmetic Series (Sum)](./src/getArithmeticSeries)
 - [Fibonacci Numbers](./src/getFibNum)
@@ -9,3 +11,7 @@
 - [Maximum Subarray Sum](./src/getMaxSubSum)
 - [Prime Numbers](./src/getPrimes)
 - [Sorting Algorithms](./src/sortingAlgorithms)
+
+### Data Types (1)
+
+- [Hast Table](./src/hashTable)
