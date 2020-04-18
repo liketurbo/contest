@@ -11,6 +11,11 @@ module.exports = {
   rules: {
     // fix: typescript
     "@typescript-eslint/explicit-function-return-type": "off",
+    "lines-between-class-members": [
+      "error",
+      "always",
+      { exceptAfterSingleLine: true },
+    ],
 
     // style: less code
     "no-return-assign": "off",
