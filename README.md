@@ -1,9 +1,12 @@
 # TypeScript Contest
 
-## In Progress (2)
+## In Progress (5)
 
-- Dijkstra's algorithm
 - DFS, BFS
+- Dijkstra's algorithm
+- Rabin-Karp
+- Knuth-Morris-Pratt (KMP)
+- Sieve of Eratosthenes
 
 ## Content (9)
 
