@@ -34,25 +34,25 @@ class HashTable<T = string> {
     this.storage = newStorage
   }
 
-  private setKeyValue(key: string, value: T, memory = this.storage) {
+  private setKeyValue(key: string, val: T, memory = this.storage) {
     const idx = this.hastStrToInt(key, memory.length)
 
-    if (idx in memory) memory[idx].push([key, value])
-    else memory[idx] = [[key, value]]
+    if (idx in memory) memory[idx].push([key, val])
+    else memory[idx] = [[key, val]]
   }
 
   get size() {
     return this.storage.length
   }
 
-  set(key: string, value: T) {
+  set(key: string, val: T) {
     this.stored++
 
     if (this.overloaded()) {
       this.resize()
     }
 
-    this.setKeyValue(key, value)
+    this.setKeyValue(key, val)
   }
 
   get(key: string) {
