@@ -12,15 +12,15 @@
 
 ### Algorithms (7)
 
-- [Arithmetic Series (Sum)](./src/getArithmeticSeries)
-- [Fibonacci Numbers](./src/getFibNum)
-- [Finding Free Slots on Two Calendars](./src/getMeetingWindows)
-- [Knapsack Problem](./src/getMaxValKnapsack)
-- [Maximum Subarray Sum](./src/getMaxSubSum)
-- [Prime Numbers](./src/getPrimes)
-- [Sorting Algorithms](./src/sortingAlgorithms)
+- [Arithmetic Series (Sum)](./src/algorithms/getArithmeticSeries)
+- [Fibonacci Numbers](./src/algorithms/getFibNum)
+- [Finding Free Slots on Two Calendars](./src/algorithms/getMeetingWindows)
+- [Knapsack Problem](./src/algorithms/getMaxValKnapsack)
+- [Maximum Subarray Sum](./src/algorithms/getMaxSubSum)
+- [Prime Numbers](./src/algorithms/getPrimes)
+- [Sorting Algorithms](./src/algorithms/sortingAlgorithms)
 
 ### Data Types (2)
 
-- [Hast Table](./src/HashTable)
-- [Min Heap](./src/MinHeap)
+- [Hast Table](./src/dataTypes/HashTable)
+- [Min Heap](./src/dataTypes/MinHeap)
