@@ -1,7 +1,5 @@
-type ValueType = string | number
-
-class HashTable {
-  private storage: [string, ValueType][][]
+class HashTable<T = string> {
+  private storage: [string, T][][]
 
   private stored: number
 
@@ -36,7 +34,7 @@ class HashTable {
     this.storage = newStorage
   }
 
-  private setKeyValue(key: string, value: ValueType, memory = this.storage) {
+  private setKeyValue(key: string, value: T, memory = this.storage) {
     const idx = this.hastStrToInt(key, memory.length)
 
     if (idx in memory) memory[idx].push([key, value])
@@ -47,7 +45,7 @@ class HashTable {
     return this.storage.length
   }
 
-  set(key: string, value: ValueType) {
+  set(key: string, value: T) {
     this.stored++
 
     if (this.overloaded()) {
