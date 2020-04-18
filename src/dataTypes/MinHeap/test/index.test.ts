@@ -1,8 +1,9 @@
 import getFolderName from "../../../testUtils/getFolderName"
+import getRandomArr from "../../../testUtils/getRandomArr"
 import MinHeap from "../solution"
 
 describe(getFolderName(), () => {
-  const arr = [10, 3, 4, 8, 2, 9, 7, 1, 2, 6, 5]
+  const arr = getRandomArr()
   const sortedArr = arr.slice().sort((a, b) => a - b)
 
   const minHeap = new MinHeap()
