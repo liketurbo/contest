@@ -1,8 +1,7 @@
-import path from "path"
-
+import getFolderName from "../../../testUtils/getFolderName"
 import getPrimes from "../solution"
 
-describe(path.basename(path.join(__dirname, "..")), () => {
+describe(getFolderName(), () => {
   test("n <= 1 return []", () => {
     expect(getPrimes(1)).toStrictEqual([])
     expect(getPrimes(0)).toStrictEqual([])

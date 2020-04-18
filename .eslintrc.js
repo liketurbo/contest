@@ -23,6 +23,9 @@ module.exports = {
 
     // fix: tests
     "jest/valid-describe": "off",
+
+    // fix: regex
+    "security/detect-unsafe-regex": "off",
   },
   settings: {
     "import/resolver": {

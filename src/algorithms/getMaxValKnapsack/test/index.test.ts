@@ -1,8 +1,7 @@
-import path from "path"
-
+import getFolderName from "../../../testUtils/getFolderName"
 import knapsackRecursive from "../solution"
 
-describe(`${path.basename(path.join(__dirname, ".."))}`, () => {
+describe(getFolderName(), () => {
   test("[5,1][3,2][5,4][3,2][2,5] return 16", () =>
     expect(
       knapsackRecursive(

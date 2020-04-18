@@ -1,8 +1,7 @@
-import path from "path"
-
+import getFolderName from "../../../testUtils/getFolderName"
 import MinHeap from "../solution"
 
-describe(path.basename(path.join(__dirname, "..")), () => {
+describe(getFolderName(), () => {
   const arr = [10, 3, 4, 8, 2, 9, 7, 1, 2, 6, 5]
   const sortedArr = arr.slice().sort((a, b) => a - b)
 

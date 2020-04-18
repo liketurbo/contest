@@ -1,9 +1,8 @@
-import path from "path"
-
+import getFolderName from "../../../testUtils/getFolderName"
 import { getFibNumIter, getFibNumMem, getFibNumRec } from "../solution"
 import runThrough from "./runThrough"
 
-describe(path.basename(path.join(__dirname, "..")), () => {
+describe(getFolderName(), () => {
   describe(getFibNumRec.name, () => runThrough(getFibNumRec))
 
   describe(getFibNumMem.name, () => {

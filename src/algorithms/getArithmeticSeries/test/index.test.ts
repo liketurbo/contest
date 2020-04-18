@@ -1,5 +1,4 @@
-import path from "path"
-
+import getFolderName from "../../../testUtils/getFolderName"
 import {
   getArithmeticSeriesForm,
   getArithmeticSeriesIter,
@@ -7,7 +6,7 @@ import {
 } from "../solution"
 import runThrough from "./runThrough"
 
-describe(path.basename(path.join(__dirname, "..")), () => {
+describe(getFolderName(), () => {
   describe(getArithmeticSeriesRec.name, () =>
     runThrough(getArithmeticSeriesRec)
   )

@@ -1,8 +1,7 @@
-import path from "path"
-
+import getFolderName from "../../../testUtils/getFolderName"
 import HashTable from "../solution"
 
-describe(path.basename(path.join(__dirname, "..")), () => {
+describe(getFolderName(), () => {
   test("read/write operation (small values)", () => {
     const hashTable = new HashTable()
 

@@ -1,5 +1,4 @@
-import path from "path"
-
+import getFolderName from "../../../testUtils/getFolderName"
 import getMeetingWindows from "../solution"
 
 const windowsA = [
@@ -25,7 +24,7 @@ const output = [
   ["18:00", "18:30"],
 ]
 
-describe(path.basename(path.join(__dirname, "..")), () => {
+describe(getFolderName(), () => {
   test(`[${windowsA}],[${boundA}] [${windowsB}],[${boundB}] ${dur} return [${output}]`, () => {
     expect(
       getMeetingWindows(windowsA, boundA, windowsB, boundB, dur)
