@@ -1,6 +1,11 @@
 # TypeScript Contest
 
-## Content (8)
+## In Progress (2)
+
+- Dijkstra's algorithm
+- DFS, BFS
+
+## Content (9)
 
 ### Algorithms (7)
 
@@ -12,6 +17,7 @@
 - [Prime Numbers](./src/getPrimes)
 - [Sorting Algorithms](./src/sortingAlgorithms)
 
-### Data Types (1)
+### Data Types (2)
 
-- [Hast Table](./src/hashTable)
+- [Hast Table](./src/HashTable)
+- [Min Heap](./src/MinHeap)
