@@ -20,6 +20,7 @@ module.exports = {
     // style: less code
     "no-return-assign": "off",
     "no-param-reassign": "off",
+    "no-continue": "off",
 
     // enable: eslint-plugin-simple-import-sort
     "sort-imports": "off",

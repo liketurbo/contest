@@ -8,19 +8,28 @@
 - Knuth-Morris-Pratt (KMP)
 - Sieve of Eratosthenes
 
-## Content (9)
+## Content
 
-### Algorithms (7)
+### Algorithms
 
-- [Arithmetic Series (Sum)](./src/algorithms/getArithmeticSeries)
-- [Fibonacci Numbers](./src/algorithms/getFibNum)
-- [Finding Free Slots on Two Calendars](./src/algorithms/getMeetingWindows)
-- [Knapsack Problem](./src/algorithms/getMaxValKnapsack)
-- [Maximum Subarray Sum](./src/algorithms/getMaxSubSum)
-- [Prime Numbers](./src/algorithms/getPrimes)
-- [Sorting Algorithms](./src/algorithms/sortingAlgorithms)
+- [Arithmetic series (Sum)](./src/algorithms/getArithmeticSeries)
+- [String changed](./src/algorithms/checkChanges)
+- [Is A are permutation of B](./src/algorithms/checkStringsForPerm)
+- [Is A are palindrome permutation of B](./src/algorithms/isPalindromePerm)
+- [All characters are unique](./src/algorithms/containsAllUniqueChars)
+- [Fibonacci numbers](./src/algorithms/getFibNum)
+- [Finding free slots on two Calendars](./src/algorithms/getMeetingWindows)
+- [Knapsack problem](./src/algorithms/getMaxValKnapsack)
+- [Maximum subarray sum](./src/algorithms/getMaxSubSum)
+- [Prime numbers](./src/algorithms/getPrimes)
+- [Replace all spaces](./src/algorithms/replaceAllSpaces)
+- [Rotate the matrix](./src/algorithms/rotateMatrix)
+- [Sorting algorithms](./src/algorithms/sortingAlgorithms)
+- [String compression](./src/algorithms/stringCompression)
+- [String rotation](./src/algorithms/stringRotation)
+- [Zero matrix](./src/algorithms/zeroMatrix)
 
-### Data Types (2)
+### Data Types
 
-- [Hast Table](./src/dataTypes/HashTable)
-- [Min Heap](./src/dataTypes/MinHeap)
+- [Hast table](./src/dataTypes/HashTable)
+- [Min heap](./src/dataTypes/MinHeap)
