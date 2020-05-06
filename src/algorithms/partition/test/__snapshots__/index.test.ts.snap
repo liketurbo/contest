@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`partition book example 1`] = `
+LinkedListNode {
+  "next": LinkedListNode {
+    "next": LinkedListNode {
+      "next": LinkedListNode {
+        "next": LinkedListNode {
+          "next": LinkedListNode {
+            "next": LinkedListNode {
+              "next": null,
+              "val": 10,
+            },
+            "val": 5,
+          },
+          "val": 8,
+        },
+        "val": 5,
+      },
+      "val": 3,
+    },
+    "val": 2,
+  },
+  "val": 1,
+}
+`;
