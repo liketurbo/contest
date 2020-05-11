@@ -1,6 +1,6 @@
 # TypeScript Contest
 
-## In Progress (5)
+## In Progress
 
 - DFS, BFS
 - Dijkstra's algorithm
@@ -12,24 +12,47 @@
 
 ### Algorithms
 
-- [Arithmetic series (Sum)](./src/algorithms/getArithmeticSeries)
-- [String changed](./src/algorithms/checkChanges)
-- [Is A are permutation of B](./src/algorithms/checkStringsForPerm)
-- [Is A are palindrome permutation of B](./src/algorithms/isPalindromePerm)
-- [All characters are unique](./src/algorithms/containsAllUniqueChars)
-- [Fibonacci numbers](./src/algorithms/getFibNum)
-- [Finding free slots on two Calendars](./src/algorithms/getMeetingWindows)
-- [Knapsack problem](./src/algorithms/getMaxValKnapsack)
-- [Maximum subarray sum](./src/algorithms/getMaxSubSum)
-- [Prime numbers](./src/algorithms/getPrimes)
-- [Replace all spaces](./src/algorithms/replaceAllSpaces)
-- [Rotate the matrix](./src/algorithms/rotateMatrix)
-- [Sorting algorithms](./src/algorithms/sortingAlgorithms)
-- [String compression](./src/algorithms/stringCompression)
-- [String rotation](./src/algorithms/stringRotation)
-- [Zero matrix](./src/algorithms/zeroMatrix)
+#### Array, string
+
+- [Is Unique](./src/algorithms/containsAllUniqueChars)
+- [Check Permutation](./src/algorithms/checkStringsForPerm)
+- [URLify](./src/algorithms/replaceAllSpaces)
+- [Palindrome Permutation](./src/algorithms/isPalindromePerm)
+- [One Away](./src/algorithms/checkChanges)
+- [String Compression](./src/algorithms/stringCompression)
+- [Rotate Matrix](./src/algorithms/rotateMatrix)
+- [Zero Matrix](./src/algorithms/zeroMatrix)
+- [String Rotation](./src/algorithms/stringRotation)
+- [Maximum Subarray Sum](./src/algorithms/getMaxSubSum)
+
+#### Linked List
+
+- [Remove Dups](./src/algorithms/removeDuplicates)
+- [Return Kth to Last](./src/algorithms/returnKthLast)
+- [Delete Middle Node](./src/algorithms/deleteMiddleNode)
+- [Partition](./src/algorithms/partition)
+- [Sum Lists](./src/algorithms/sumLists)
+- [Sum Lists Reverse](./src/algorithms/sumListsReverse)
+- [Palindrome](./src/algorithms/listPalindrome)
+- [Intersection](./src/algorithms/listIntersection)
+- [Loop Detection](./src/algorithms/loopDetection)
+
+#### Math
+
+- [Arithmetic Series (Sum)](./src/algorithms/getArithmeticSeries)
+- [Fibonacci Numbers](./src/algorithms/getFibNum)
+- [Prime Numbers](./src/algorithms/getPrimes)
+
+#### Interview Questions
+
+- [Finding Free Slots on Two Calendars](./src/algorithms/getMeetingWindows)
+- [Knapsack](./src/algorithms/getMaxValKnapsack)
+- [Sorting Algorithms](./src/algorithms/sortingAlgorithms)
 
 ### Data Types
 
-- [Hast table](./src/dataTypes/HashTable)
-- [Min heap](./src/dataTypes/MinHeap)
+- [Hast Table](./src/dataTypes/HashTable)
+- [Min Heap](./src/dataTypes/MinHeap)
+- [Linked List](./src/dataTypes/LinkedList)
+- [Queue](./src/dataTypes/Queue)
+- [Stack](./src/dataTypes/Stack)
