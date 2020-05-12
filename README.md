@@ -56,3 +56,4 @@
 - [Linked List](./src/dataTypes/LinkedList)
 - [Queue](./src/dataTypes/Queue)
 - [Stack](./src/dataTypes/Stack)
+- [ThreeStack](./src/dataTypes/ThreeStack)

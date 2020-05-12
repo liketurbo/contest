@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThreeStack push works 1`] = `
+ThreeStack {
+  "sizes": Array [
+    3,
+    2,
+    1,
+  ],
+  "storage": Array [
+    "a",
+    "d",
+    "f",
+    "b",
+    "e",
+    undefined,
+    "c",
+  ],
+}
+`;
