@@ -1,35 +1,31 @@
-import MinStackNode from "./MinStackNode"
+import Stack from "../../Stack/solution"
 
-class MinStack {
-  private top: MinStackNode | null
+class MinStack extends Stack<number> {
+  private mins: Stack<number>
 
   constructor() {
-    this.top = null
+    super()
+    this.mins = new Stack()
   }
 
   min() {
-    if (this.top) return this.top.min
-
-    return null
-  }
-
-  pop() {
-    let value = null
-
-    if (this.top) {
-      value = this.top.value
-      this.top = this.top.next
-    }
-
-    return value
+    return this.mins.peek()
   }
 
   push(value: number) {
-    const node = new MinStackNode(value)
+    super.push(value)
 
-    if (this.top) node.next = this.top
+    if (value < this.mins.peek()) return this.mins.push(value)
 
-    this.top = node
+    return this.mins.size - 1
+  }
+
+  pop() {
+    const value = super.pop()
+
+    if (value === this.mins.peek()) this.mins.pop()
+
+    return value
   }
 }
 
