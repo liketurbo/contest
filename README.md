@@ -57,3 +57,4 @@
 - [Queue](./src/dataTypes/Queue)
 - [Stack](./src/dataTypes/Stack)
 - [ThreeStack](./src/dataTypes/ThreeStack)
+- [MinStack](./src/dataTypes/MinStack)

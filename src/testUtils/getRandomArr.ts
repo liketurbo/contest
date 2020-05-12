@@ -1,7 +1,7 @@
 import getRandomInt from "./getRandomInt"
 
-const getRandomArr = () => {
-  const arr = Array.from(new Array(getRandomInt(10, 50)), () =>
+const getRandomArr = (min = 10, max = 50) => {
+  const arr = Array.from(new Array(getRandomInt(min, max)), () =>
     getRandomInt(-100, 100)
   )
 
