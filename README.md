@@ -42,6 +42,7 @@
 - [Three in One](./src/dataTypes/ThreeStack)
 - [Stack Min](./src/dataTypes/MinStack)
 - [Stack of Plates](./src/dataTypes/SetStacks)
+- [Queue via Stacks](./src/dataTypes/StackQueue)
 
 #### Math
 
