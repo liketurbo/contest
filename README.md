@@ -37,6 +37,12 @@
 - [Intersection](./src/algorithms/listIntersection)
 - [Loop Detection](./src/algorithms/loopDetection)
 
+#### Stack, Queue
+
+- [Three in One](./src/dataTypes/ThreeStack)
+- [Stack Min](./src/dataTypes/MinStack)
+- [Stack of Plates](./src/dataTypes/SetStacks)
+
 #### Math
 
 - [Arithmetic Series (Sum)](./src/algorithms/getArithmeticSeries)
@@ -56,5 +62,3 @@
 - [Linked List](./src/dataTypes/LinkedList)
 - [Queue](./src/dataTypes/Queue)
 - [Stack](./src/dataTypes/Stack)
-- [ThreeStack](./src/dataTypes/ThreeStack)
-- [MinStack](./src/dataTypes/MinStack)
