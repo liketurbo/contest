@@ -1,6 +1,6 @@
 import LinkedListNode from "../../../dataTypes/LinkedList/solution/LinkedListNode"
+import genLinkedList from "../../../testUtils/genLinkedList"
 import getFolderName from "../../../testUtils/getFolderName"
-import genLinkedList from "../../../testUtils/getLinkedList"
 import partition from "../solution"
 
 describe(getFolderName(), () => {
