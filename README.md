@@ -44,6 +44,7 @@
 - [Stack of Plates](./src/dataTypes/SetStacks)
 - [Queue via Stacks](./src/dataTypes/StackQueue)
 - [Sort Stack](./src/algorithms/sortStack)
+- [Animal Shelter](./src/dataTypes/AnimalShelter)
 
 #### Math
 
