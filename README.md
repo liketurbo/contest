@@ -51,7 +51,7 @@
 - [Fibonacci Numbers](./src/algorithms/getFibNum)
 - [Prime Numbers](./src/algorithms/getPrimes)
 
-#### Interview Questions
+#### Other
 
 - [Finding Free Slots on Two Calendars](./src/algorithms/getMeetingWindows)
 - [Knapsack](./src/algorithms/getMaxValKnapsack)
