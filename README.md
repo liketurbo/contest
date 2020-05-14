@@ -43,6 +43,7 @@
 - [Stack Min](./src/dataTypes/MinStack)
 - [Stack of Plates](./src/dataTypes/SetStacks)
 - [Queue via Stacks](./src/dataTypes/StackQueue)
+- [Sort Stack](./src/algorithms/sortStack)
 
 #### Math
 
