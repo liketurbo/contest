@@ -46,6 +46,10 @@
 - [Sort Stack](./src/algorithms/sortStack)
 - [Animal Shelter](./src/dataTypes/AnimalShelter)
 
+#### Trees, Graphs
+
+- [Route Between Nodes](./src/algorithms/routeBetweenNodes)
+
 #### Math
 
 - [Arithmetic Series (Sum)](./src/algorithms/getArithmeticSeries)
@@ -65,3 +69,4 @@
 - [Linked List](./src/dataTypes/LinkedList)
 - [Queue](./src/dataTypes/Queue)
 - [Stack](./src/dataTypes/Stack)
+- [Graph](./src/dataTypes/Graph)
