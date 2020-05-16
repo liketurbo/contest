@@ -3,6 +3,7 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "prettier",
+    "prettier/@typescript-eslint",
     "get-off-my-lawn",
   ],
   plugins: ["simple-import-sort"],
