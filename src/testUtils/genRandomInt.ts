@@ -1,10 +1,5 @@
 const genRandomInt = (min = 0, max = 1) => {
-  if (
-    max - min === 0 ||
-    max - min < 0 ||
-    !Number.isInteger(min) ||
-    !Number.isInteger(max)
-  )
+  if (max - min < 0 || !Number.isInteger(min) || !Number.isInteger(max))
     throw new Error("Invalid max or min value.")
 
   const range = max - min + 1
