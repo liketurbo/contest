@@ -1,6 +1,6 @@
-import getRandomArr from "../../../testUtils/getRandomArr"
+import genRandomArr from "../../../testUtils/genRandomArr"
 
-const arr = getRandomArr()
+const arr = genRandomArr()
 const sortedArr = arr.slice().sort((a, b) => a - b)
 
 export default (func: (arr: number[]) => number[]) => {

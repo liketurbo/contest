@@ -1,9 +1,9 @@
+import genRandomArr from "../../../testUtils/genRandomArr"
 import getFolderName from "../../../testUtils/getFolderName"
-import getRandomArr from "../../../testUtils/getRandomArr"
 import LinkedList from "../solution"
 
 describe(getFolderName(), () => {
-  const arr = getRandomArr()
+  const arr = genRandomArr()
   const linkedList = new LinkedList<number>()
 
   for (const num of arr) linkedList.add(num)

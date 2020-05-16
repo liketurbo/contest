@@ -1,8 +1,8 @@
-import getRandomArr from "../../../testUtils/getRandomArr"
+import genRandomArr from "../../../testUtils/genRandomArr"
 import MinStack from "../solution"
 
 describe(MinStack, () => {
-  const arr = getRandomArr()
+  const arr = genRandomArr()
 
   test("push/pop works", () => {
     const minStack = new MinStack()

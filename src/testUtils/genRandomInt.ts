@@ -1,4 +1,4 @@
-const getRandomInt = (min = 0, max = 1) => {
+const genRandomInt = (min = 0, max = 1) => {
   if (
     max - min === 0 ||
     max - min < 0 ||
@@ -12,4 +12,4 @@ const getRandomInt = (min = 0, max = 1) => {
   return min + Math.floor(Math.random() * range)
 }
 
-export default getRandomInt
+export default genRandomInt
