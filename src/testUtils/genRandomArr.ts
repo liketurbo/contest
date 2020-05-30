@@ -25,6 +25,8 @@ const genRandomArr = (options: GenRandomArrOptions = {}) => {
 
     while (used.includes(value)) value = genRandomInt(minVal, maxVal)
 
+    used.push(value)
+
     return value
   })
 

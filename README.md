@@ -49,6 +49,7 @@
 #### Trees, Graphs
 
 - [Route Between Nodes](./src/algorithms/routeBetweenNodes)
+- [Minimal Tree](./src/algorithms/minimalTree)
 
 #### Math
 
@@ -64,9 +65,10 @@
 
 ### Data Types
 
-- [Hast Table](./src/dataTypes/HashTable)
-- [Min Heap](./src/dataTypes/MinHeap)
-- [Linked List](./src/dataTypes/LinkedList)
-- [Queue](./src/dataTypes/Queue)
-- [Stack](./src/dataTypes/Stack)
+- [Binary Search Tree](./src/dataTypes/BinarySearchTree)
 - [Graph](./src/dataTypes/Graph)
+- [Hast Table](./src/dataTypes/HashTable)
+- [Linked List](./src/dataTypes/LinkedList)
+- [Min Heap](./src/dataTypes/MinHeap)
+- [Stack](./src/dataTypes/Stack)
+- [Queue](./src/dataTypes/Queue)
