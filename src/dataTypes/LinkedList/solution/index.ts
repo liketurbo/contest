@@ -3,8 +3,9 @@ import LinkedListNode from "./LinkedListNode"
 class LinkedList<T = string> {
   private root: LinkedListNode<T> | null
 
-  constructor() {
-    this.root = null
+  constructor(root: T | null = null) {
+    if (root) this.root = new LinkedListNode(root)
+    else this.root = null
   }
 
   add(val: T) {
