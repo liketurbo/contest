@@ -1,10 +1,11 @@
 import BinaryNode from "./BinaryNode"
 
 class BinaryTree<T> {
-  root: BinaryNode<T>
+  root: BinaryNode<T> | null
 
-  constructor(value: T) {
-    this.root = new BinaryNode(value)
+  constructor(root: T | null = null) {
+    if (root) this.root = new BinaryNode(root)
+    else this.root = null
   }
 }
 

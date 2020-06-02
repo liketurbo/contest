@@ -51,6 +51,7 @@
 - [Route Between Nodes](./src/algorithms/routeBetweenNodes)
 - [Minimal Tree](./src/algorithms/minimalTree)
 - [List of Depths](./src/algorithms/listOfDepths)
+- [Check Balanced](./src/algorithms/checkBalanced)
 
 #### Math
 
