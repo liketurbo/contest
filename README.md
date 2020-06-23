@@ -2,7 +2,6 @@
 
 ## In Progress
 
-- DFS, BFS
 - Dijkstra's algorithm
 - Rabin-Karp
 - Knuth-Morris-Pratt (KMP)
@@ -52,6 +51,7 @@
 - [Minimal Tree](./src/algorithms/minimalTree)
 - [List of Depths](./src/algorithms/listOfDepths)
 - [Check Balanced](./src/algorithms/checkBalanced)
+- [Validate BST](./src/algorithms/validateBst)
 
 #### Math
 
